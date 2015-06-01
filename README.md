@@ -9,9 +9,6 @@ Italian Beer Explorer is a **ionic**, **angular-wakanda**, **wakanda** demo app 
 
 ## Setup
 
-- A [Wakanda](http://www.wakanda.org/) solution with dummy data
-- Bower configuration
-
 ### Prerequisites
 
 - [Wakanda Server V11 based on JSCore](http://www.wakanda.org/downloads)
