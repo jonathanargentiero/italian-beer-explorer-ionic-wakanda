@@ -3,17 +3,17 @@
     <ion-content has-header="true" padding="true">
 
         <div class="list card">
-            <div class="item">
+            <a class="item" ng-href="{{ 'http://'+product.url }}">
                 <h2>{{product.name }}</h2>
                 <p>{{product.brewery}}</p>
-            </div>
+            </a>
             <div class="item item-body" style="text-align: center">
                 <div>
                     <img src="pics/generic.png" style="vertical-align: middle">
                     <span class="bubble" ng-bind="formatAlcoholLevel(product.alcohol)"></span>
                 </div>
             </div>
-            <ion-item class="item-icon-left" ng-click="setSearchKey(product.brewery)">
+            <ion-item class="item-icon-left" ng-href="{{ 'http://'+product.breweryUrl }}">
                 <i class="icon ion-home placeholder-icon"></i>
                 <span ng-bind="product.brewery"></span>
             </ion-item>

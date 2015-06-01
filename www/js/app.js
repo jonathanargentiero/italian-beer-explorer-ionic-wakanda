@@ -1,8 +1,6 @@
-angular.module('explorer', ['ionic', 'explorer.product'])
+angular.module('explorer', ['ionic', 'explorer.product', 'wakanda'])
 
     .run(function ($ionicPlatform, $rootScope) {
-
-        $rootScope.server = "http://belgianbeerexplorer.coenraets.org";
 
         $ionicPlatform.ready(function () {
             if (window.StatusBar) {
