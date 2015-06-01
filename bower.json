@@ -16,7 +16,6 @@
     "ionic": "driftyco/ionic-bower#1.0.0-beta.14",
     "angular-wakanda": "~0.4.3",
     "jquery": "~2.1.4",
-    "nouislider": "~7.0.10",
-    "ngCordova": "~0.1.15-alpha"
+    "nouislider": "~7.0.10"
   }
 }
