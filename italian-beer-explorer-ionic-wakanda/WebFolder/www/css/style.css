@@ -1,0 +1,97 @@
+.bar.bar-energized {
+    background-color: white;
+    background: #24b524; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #24b524 0%, #ffffff 33%, #ffffff 66%, #ff0000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#24b524), color-stop(33%,#ffffff), color-stop(66%,#ffffff), color-stop(100%,#ff0000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  #24b524 0%,#ffffff 33%,#ffffff 66%,#ff0000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-45deg,  #24b524 0%,#ffffff 33%,#ffffff 66%,#ff0000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(-45deg,  #24b524 0%,#ffffff 33%,#ffffff 66%,#ff0000 100%); /* IE10+ */
+    background: linear-gradient(135deg,  #24b524 0%,#ffffff 33%,#ffffff 66%,#ff0000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24b524', endColorstr='#ff0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    border: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: black;
+}
+.bar.bar-energized .title,button.button.back-button.buttons.button-clear.header-item {
+    color: black;
+}
+
+.ion-close-round::before {
+    font-size: 18px !important;
+}
+
+.item .badge {
+    height: 28px;
+    width: 28px;
+    font-size: 12px;
+    font-weight: 400;
+    background: #83D6EF;
+    color: #333;
+    border-radius: 14px;
+    display: inline;
+    padding: 6px 0 0 0;
+    text-align: center;
+    right: 14px !important;
+}
+
+.bubble {
+    background: #83D6EF;
+    height: 68px;
+    width: 68px;
+    border-radius: 34px;
+    font-size: 20px;
+    color: #333;
+    display: inline-block;
+    margin-left: 16px;
+    padding-top: 22px;
+    vertical-align: middle;
+}
+
+.bar-subheader {
+    border-bottom: none;
+}
+
+.bar-footer {
+    border-top: 1px solid rgb(204, 204, 204);
+    padding: 10px 10px 0 10px;
+    height: 64px;
+    display: inline;
+    text-align: center;
+}
+
+.has-subheader {
+    /*top: 100px !important;*/
+}
+
+.has-footer {
+    bottom: 62px;
+}
+
+#slider {
+    margin: 0 18px 0 18px;
+    display: block;
+}
+
+.slider-title {
+    display: block;
+    color: #333;
+}
+
+.noUi-connect {
+    background: #83D6EF !important;
+}
+
+.tooltip {
+    border-radius: 2px;
+    display: block;
+    opacity: 1;
+    color: #333;
+    background: #83D6EF;
+    padding: 2px 4px;
+    margin-top: -22px;
+    width:40px;
+    text-align: center;
+    margin-left: -4px;
+    font-size: 13px;
+}
